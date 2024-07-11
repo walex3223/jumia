@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @keyframes test {
+        0%{background-color: red; left:0px; top:2px}
+        25%{background-color: yellow; left:200px; top:2px}
+        50%{background-color: green; left:100px; top:2px}
+        100%{background-color: none; left:20px; top:2px}
+        
+    }
+    @keyframes ones {
+        0%{background-color:white;font-size:13px; left:500px; top:200px;}
+        25%{background-color:white;font-size:13px; left:500px; top:100px;}
+       
+       
+        50%{background-color:white;font-size:18px; left:500px; top:100px;}
+        75%{background-color:white;font-size:18px; left:500px; top:0px;}
+        100%{background-color:white;font-size:18px; left:0px; top:0px;}
+        
+        
+    }
+    @keyframes two {
+        0%{background-color:white;font-size:13px; left:500px; top:260px;}
+        25%{background-color:white;font-size:13px; left:500px; top:260px;}
+        50%{background-color:white;font-size:13px; left:500px; top:260px;}
+        75%{background-color:white;font-size:18px; left:500px; top:2px;}
+        100%{background-color:white;font-size:18px; left:0px; top:2px; }
+    }
+    #one{
+
+
+        animation-name:ones;
+        position: relative;
+
+        animation-duration: 2s;
+
+
+        color:black;
+
+   
+    }
+    #ones{
+
+        
+
+
+animation-delay: 0s;
+animation-duration:2s;
+animation-name:two;
+position: relative;
+
+
+
+color:black;
+
+
+}
+
+
+#one{
+ 
+}
+#div{
+    display:flex;
+}
+
+</style>
+<body>
+
+
+    <div id="one"><h1>techweek</h1></div>
+    <div id="ones"><h1>welxome</h1></div>
+
+    
+</body>
+</html>

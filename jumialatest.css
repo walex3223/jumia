@@ -1,0 +1,157 @@
+@media screen and (min-width:695px){
+    
+    
+    /* topdiv header */
+    #formdiv{
+        width:77%;
+    }
+    #headerlogo{
+        width:22%;
+
+    }
+    /* topdiv */
+    .inputtop{
+        width:100%;
+        height:100%;
+
+    }
+    .formtop{
+
+        width:50%;
+
+    }
+
+    /* main div */
+    .mainleft{
+        width:22%;
+    }
+    main{
+        height:350px;
+    }
+    .mainright{
+        width:77%;
+    }
+    /* main div end */
+
+    /* rightmain */
+    .mainsubleft{
+        width:69%;
+    }
+    #mainsubright{
+        box-sizing: border-box;
+        width:30%;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #mainsubrighttop,#mainsubrightbottom{
+        height:48%;
+        background-color: white;
+        border-radius: 5px;;
+
+    }
+
+    /* rightmain end */
+
+
+    #toplink a:hover{color:orange;
+        
+    }
+
+    /* item div */
+    .item{
+        box-sizing: border-box;
+
+    }
+
+    .top-item{
+    
+        justify-content: space-between;
+
+
+    }
+    .items{
+    
+        text-align: center;
+        width:16%;
+        height:200px;
+        background-color:grey;
+        box-sizing: border-box;
+        border-radius: 5px;
+
+        
+    }
+    .items img{
+        border-radius: 5px;
+
+    }
+    .items:hover{
+        transform:scale(1.03,1.03);
+        transition:0.2s;
+        
+        
+
+    }
+    .topitemlink{
+        text-decoration: none;
+        color:white;
+    }
+    
+    /* item div end */
+
+    /* topselling div */
+    .topsellingsaleprice{
+        margin-top:0px;
+        
+        padding-top: 0px;
+        line-height: 20px;;
+
+    }
+    .topsellingname{
+
+        
+        margin-bottom: 10px;
+        line-height: 20px;;
+    }
+    .topsellingprice{
+        margin-bottom: 0px;
+        padding-bottom: 0px;;
+        line-height: 20px;;
+    }
+
+
+    /*  */
+}
+.topsellingheader{
+    display: flex;
+    justify-content: space-between;
+    padding-top:10px;
+}
+
+.topsellingdiv{
+    height:350px;
+    margin-top:20px;
+    background-color: aliceblue;
+}
+.topsellingdiv #p{
+    font-size:16px;
+    color:orange;
+}
+.topsell div{
+    height:280px;
+}
+.topsellitemimage{
+    width:100%;
+    height:70%;
+}
+#cols:hover{
+    transform: scale(1.01);
+    transition:0.3s;
+
+
+
+}
+.topsellpercent{
+    background-color: pink;
+}
+
